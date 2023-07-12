@@ -8,6 +8,9 @@ import {
   DiMongodb,
   DiPython,
   DiMysql,
+  DiDjango,
+  DiAws,
+  DiCompass
 } from "react-icons/di";
 
 
@@ -33,6 +36,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCompass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
       </Col>
     </Row>
   );
